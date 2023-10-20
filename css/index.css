@@ -1,0 +1,41 @@
+.contenedor{
+    margin: 0 auto;
+    width: 1080px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.main__h1{
+    padding: 20px 0px;
+}
+.nav{
+    margin: 40px 0px;
+}
+.section{
+    margin: 20px 0px;
+    text-align: center;
+}
+.h3{
+    padding: 20px 0px 0px;
+}
+.div_select{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    text-align: left;
+}   
+.select{
+    width: 50%;
+    padding: 0px 5px;
+}
+.direcc{
+    text-align: left;
+}
+.div__check{
+    text-align: left;
+}
+.enviar{
+    margin: 10px 0px;
+}
+
