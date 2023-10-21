@@ -29,19 +29,19 @@
                         <div class="div_select">
                             <div class="select">
                                 <label>Tipo de vivienda:</label>
-                                <select class="form-select vivienda" aria-label="Default select example">
-                                    <option value="1">Adosado</option>
-                                    <option value="2">Unifamiliar</option>
-                                    <option value="3">Piso</option>
+                                <select class="form-select vivienda" name="tipo_vivienda" aria-label="Default select example">
+                                    <option value="adosado">Adosado</option>
+                                    <option value="unifamiliar">Unifamiliar</option>
+                                    <option value="piso">Piso</option>
                                 </select>
                             </div>
                             
                             <div class="select">
                                 <label>Zona:</label>
-                                <select class="form-select zona" aria-label="Default select example">
-                                    <option value="1">Centro</option>
-                                    <option value="2">Periferia</option>
-                                    <option value="3">Prado del Arca</option>
+                                <select class="form-select zona" name="zona" aria-label="Default select example">
+                                    <option value="centro">Centro</option>
+                                    <option value="periferia">Periferia</option>
+                                    <option value="pda">Prado del Arca</option>
                                 </select>
                             </div>
                         </div>
@@ -52,30 +52,30 @@
                         <div class="div_select">
                             <div class="select">
                                 <label>Habitaciones:</label>
-                                <input type="text" class="form-control" aria-label="habitaciones" name="direccion" aria-describedby="addon-wrapping">
+                                <input type="text" class="form-control" aria-label="habitaciones" name="habitaciones" aria-describedby="addon-wrapping">
                             </div>
                             <div class="select">
                                 <label>Precio:</label>
-                                <input type="text" class="form-control" aria-label="precio" name="direccion" aria-describedby="addon-wrapping">
+                                <input type="text" class="form-control" aria-label="precio" name="precio" aria-describedby="addon-wrapping">
                             </div>
                         </div>
                         <div class="div__check">
                             <label>Extras:</label><br>
-                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <input class="form-check-input" name="garaje" type="checkbox" id="gridCheck1">
                             <label class="form-check-label" for="gridCheck1">
                               Garaje
                             </label>
-                            <input class="form-check-input" type="checkbox" id="gridCheck2">
+                            <input class="form-check-input" name="trastero" type="checkbox" id="gridCheck2">
                             <label class="form-check-label" for="gridCheck2">
                               Trastero
                             </label>
-                            <input class="form-check-input" type="checkbox" id="gridCheck3">
+                            <input class="form-check-input" name="piscina" type="checkbox" id="gridCheck3">
                             <label class="form-check-label" for="gridCheck3">
                               Piscina
                             </label> <br><br>
                         </di>
                         <label for="exampleFormControlTextarea1" class="label form-label">Observaciones</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" name="textArea" id="exampleFormControlTextarea1" rows="3"></textarea>
                         <input type="submit" name="enviar" value="Enviar" class="btn enviar btn-primary">
                     </form>
                 </div>
